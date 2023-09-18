@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feature_categories",
+  "info": {
+    "singularName": "feature-category",
+    "pluralName": "feature-categories",
+    "displayName": "Feature Category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "feature_category": {
+      "type": "string"
+    },
+    "features": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::feature.feature",
+      "mappedBy": "feature_category"
+    }
+  }
+}

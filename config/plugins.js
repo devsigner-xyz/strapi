@@ -1,7 +1,12 @@
 module.exports = ({ env }) => ({
-    'users-permissions': {
+  "users-permissions": {
+    config: {
+      jwtSecret: env("JWT_SECRET"),
+    },
+    "strapi-plugin-populate-deep": {
       config: {
-      jwtSecret: env('JWT_SECRET'),
+        defaultDepth: 3,
       },
     },
-  });
+  },
+});

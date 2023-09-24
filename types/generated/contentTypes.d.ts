@@ -696,6 +696,7 @@ export interface ApiAffiliateAffiliate extends Schema.CollectionType {
       Attribute.SetMinMaxLength<{
         maxLength: 310;
       }>;
+    image: Attribute.Media & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -980,6 +981,7 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     imageleft: Attribute.Media & Attribute.Required;
     imageright: Attribute.Media & Attribute.Required;
     blog: Attribute.Component<'sections.sections-blog'>;
+    features: Attribute.Component<'sections.sections-banner'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

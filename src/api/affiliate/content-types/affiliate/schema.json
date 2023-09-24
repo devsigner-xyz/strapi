@@ -28,6 +28,14 @@
       "type": "richtext",
       "required": true,
       "maxLength": 310
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }

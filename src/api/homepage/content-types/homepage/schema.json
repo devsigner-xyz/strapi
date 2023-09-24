@@ -43,6 +43,11 @@
       "type": "component",
       "repeatable": false,
       "component": "sections.sections-blog"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.sections-banner"
     }
   }
 }

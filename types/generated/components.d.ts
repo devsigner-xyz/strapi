@@ -11,6 +11,18 @@ export interface SectionsHero extends Schema.Component {
   };
 }
 
+export interface SectionsSectionsBanner extends Schema.Component {
+  collectionName: 'components_sections_sections_banners';
+  info: {
+    displayName: 'Sections.banner';
+  };
+  attributes: {
+    image: Attribute.Media & Attribute.Required;
+    title: Attribute.String;
+    subtitle: Attribute.String;
+  };
+}
+
 export interface SectionsSectionsBlog extends Schema.Component {
   collectionName: 'components_sections_sections_blogs';
   info: {
@@ -40,6 +52,7 @@ declare module '@strapi/strapi' {
   export module Shared {
     export interface Components {
       'sections.hero': SectionsHero;
+      'sections.sections-banner': SectionsSectionsBanner;
       'sections.sections-blog': SectionsSectionsBlog;
       'shared.seo': SharedSeo;
     }

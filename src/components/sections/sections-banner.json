@@ -1,22 +1,29 @@
 {
   "collectionName": "components_sections_sections_banners",
   "info": {
-    "displayName": "Sections.banner"
+    "displayName": "Sections.banner",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "title": {
       "type": "string"
     },
     "subtitle": {
+      "type": "string"
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "buttonText": {
       "type": "string"
     }
   }

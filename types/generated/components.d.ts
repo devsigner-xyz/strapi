@@ -15,11 +15,14 @@ export interface SectionsSectionsBanner extends Schema.Component {
   collectionName: 'components_sections_sections_banners';
   info: {
     displayName: 'Sections.banner';
+    description: '';
   };
   attributes: {
     image: Attribute.Media & Attribute.Required;
     title: Attribute.String;
     subtitle: Attribute.String;
+    buttonUrl: Attribute.String;
+    buttonText: Attribute.String;
   };
 }
 

@@ -1096,6 +1096,7 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     blog: Attribute.Component<'sections.sections-blog'>;
     features: Attribute.Component<'sections.sections-banner'>;
     portfolio: Attribute.Component<'sections.sections-portfolio'>;
+    github: Attribute.Component<'sections.sections-banner'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

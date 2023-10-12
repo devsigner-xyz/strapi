@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_sections_portfolios",
+  "info": {
+    "displayName": "Sections.portfolio"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

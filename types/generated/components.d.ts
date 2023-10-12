@@ -35,6 +35,16 @@ export interface SectionsSectionsBlog extends Schema.Component {
   };
 }
 
+export interface SectionsSectionsPortfolio extends Schema.Component {
+  collectionName: 'components_sections_sections_portfolios';
+  info: {
+    displayName: 'Sections.portfolio';
+  };
+  attributes: {
+    title: Attribute.String;
+  };
+}
+
 export interface SharedSeo extends Schema.Component {
   collectionName: 'components_shared_seos';
   info: {
@@ -54,6 +64,7 @@ declare module '@strapi/types' {
       'sections.hero': SectionsHero;
       'sections.sections-banner': SectionsSectionsBanner;
       'sections.sections-blog': SectionsSectionsBlog;
+      'sections.sections-portfolio': SectionsSectionsPortfolio;
       'shared.seo': SharedSeo;
     }
   }

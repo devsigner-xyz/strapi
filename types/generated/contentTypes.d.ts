@@ -1095,6 +1095,7 @@ export interface ApiHomepageHomepage extends Schema.SingleType {
     imageright: Attribute.Media & Attribute.Required;
     blog: Attribute.Component<'sections.sections-blog'>;
     features: Attribute.Component<'sections.sections-banner'>;
+    portfolio: Attribute.Component<'sections.sections-portfolio'>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
@@ -1150,7 +1151,7 @@ export interface ApiPortfolioPortfolio extends Schema.CollectionType {
           localized: true;
         };
       }>;
-    slug: Attribute.UID<'api::portfolio.portfolio', 'title'> &
+    slug: Attribute.UID &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;

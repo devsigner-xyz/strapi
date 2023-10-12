@@ -46,8 +46,7 @@
           "localized": true
         }
       },
-      "type": "uid",
-      "targetField": "title"
+      "type": "uid"
     },
     "image": {
       "type": "media",
@@ -63,11 +62,12 @@
       }
     },
     "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true

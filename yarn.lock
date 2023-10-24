@@ -8429,10 +8429,10 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.4.3.tgz#326f11db518db751c83fd58574f449b7c3060910"
   integrity sha512-f9aPhy8fYBuMN+sNfakZV18U39PbalgjXG3lLB9WkaYTxijru61wb57V9wxxNthXM5Sd88ETBWi29qLAsHO52Q==
 
-strapi-plugin-sitemap@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-sitemap/-/strapi-plugin-sitemap-3.0.3.tgz#44cdd913dd6fe3f53cb74bcfdb172273e49c835e"
-  integrity sha512-RoVEKOEBgTaGkEyY7bx8GvZYQkq8qTZMLgkc5cSe3LQnW+qr2g1rst1ShglFpsUlK422AOiLGCiiUtbPq6IPbg==
+strapi-plugin-sitemap@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-sitemap/-/strapi-plugin-sitemap-3.0.5.tgz#044de31169d372b1ea11bc42c8f02c3a8c6e32cb"
+  integrity sha512-phgUmvihWFllLIhQAI/BoMLj/xrimWvUNg9VicmwvsnrqYBkYEp5x3LpmT6FqjPgEmWtSED+oCME01rR244/Bg==
   dependencies:
     chalk "^4.1.2"
     commander "^8.3.0"
